@@ -8,5 +8,5 @@ runs:
         shell: bash
       - run: wget https://cs.symfony.com/download/php-cs-fixer-v3.phar
         shell: bash
-      - run: php php-cs-fixer-v2.phar fix --config=.style/.php-cs-fixer.php -v --dry-run --allow-risky=yes --path-mode=intersection .
+      - run: php php-cs-fixer-v3.phar fix --config=.style/.php-cs-fixer.php -v --dry-run --allow-risky=yes --path-mode=intersection .
         shell: bash
